@@ -1,0 +1,279 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Camelot Comics Store | Videojuegos Retro</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="inicio">
+        <div class="contenedor">
+            <h1>Camelot Comics Store</h1>
+            <p>Tu tienda de videojuegos retro</p>
+        </div>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <div class="contenedor">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN INICIO -->
+        <section class="hero">
+            <div class="contenedor">
+                <h2>Cómics, videojuegos y coleccionables</h2>
+
+                <p>
+                    Encontrá consolas, comics, videojuegos y accesorios clásicos
+                    para revivir los mejores momentos de la historia comiquera y del videojuego.
+                </p>
+
+                <a class="boton" href="#productos">Ver productos</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PRODUCTOS -->
+        <section id="productos" class="productos">
+    <div class="contenedor">
+
+        <h2>Productos destacados</h2>
+
+        <div class="productos-container">
+
+            <!-- Producto 1 -->
+            <article class="producto-card">
+                <img
+                    src="https://acdn-us.mitiendanube.com/stores/001/184/069/products/el_dia_mas_brillante_-_cov-c8b5750f020962d8a717908832951235-1024-1024.webp"
+                    alt="Cómic El Día Más Brillante"
+                >
+
+                <h3>El Día Más Brillante</h3>
+
+                <p>
+                    Cómic de DC Comics escrito por Geoff Johns,
+                    Peter J. Tomasi y otros destacados autores.
+                </p>
+
+                <span class="precio">$35.000</span>
+
+                <a href="#contacto" class="boton">Consultar</a>
+            </article>
+
+
+            <!-- Producto 2 -->
+            <article class="producto-card">
+                <img
+                    src="https://acdn-us.mitiendanube.com/stores/001/184/069/products/green_lantern_green_arrow_cov-96678bddcba5edf30317226036375082-480-0.webp"
+                    alt="Green Lantern Green Arrow Edición Absoluta"
+                >
+
+                <h3>Green Lantern / Green Arrow</h3>
+
+                <p>
+                    Edición Absoluta con la clásica historia
+                    de Green Lantern y Green Arrow.
+                </p>
+
+                <span class="precio">$45.000</span>
+
+                <a href="#contacto" class="boton">Consultar</a>
+            </article>
+
+
+            <!-- Producto 3 -->
+            <article class="producto-card">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8SeXiPRJosub8hyKmOIQ9j4xUf9HNCTrekKg8Q8tSpf9YA_3HUR0xYAyu&s=10"
+                    alt="Marvel's Wolverine para PlayStation 5"
+                >
+
+                <h3>Marvel's Wolverine - PS5</h3>
+
+                <p>
+                    Videojuego de Marvel para PlayStation 5,
+                    protagonizado por Wolverine.
+                </p>
+
+                <span class="precio">$80.000</span>
+
+                <a href="#contacto" class="boton">Consultar</a>
+            </article>
+
+        </div>
+    </div>
+</section>
+        <!-- SECCIÓN RESEÑAS -->
+        <section id="resenas" class="resenas">
+            <div class="contenedor">
+
+                <h2>Reseñas de nuestros clientes</h2>
+
+                <div class="resenas-container">
+
+                    <article class="resena">
+                        <h3>★★★★★</h3>
+
+                        <p>
+                            "Excelente atención y muy buenos productos.
+                            La consola llegó en perfecto estado."
+                        </p>
+
+                        <strong>— Martín</strong>
+                    </article>
+
+                    <article class="resena">
+                        <h3>★★★★★</h3>
+
+                        <p>
+                            "Encontré juegos que estaba buscando hace años.
+                            Muy recomendable para coleccionistas."
+                        </p>
+
+                        <strong>— Laura</strong>
+                    </article>
+
+                    <article class="resena">
+                        <h3>★★★★☆</h3>
+
+                        <p>
+                            "Muy buena variedad de productos y precios.
+                            Volvería a comprar."
+                        </p>
+
+                        <strong>— Diego</strong>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN MULTIMEDIA -->
+        <section class="multimedia">
+            <div class="contenedor">
+
+                <h2>El mundo retro</h2>
+
+                <p>
+                    Los videojuegos clásicos siguen formando parte de la
+                    cultura gamer y de la historia de los videojuegos.
+                </p>
+
+                <!-- Video de YouTube -->
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        title="Video sobre videojuegos"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenedor">
+
+                <h2>Contacto</h2>
+
+                <p>
+                    ¿Buscás algún juego o consola en particular?
+                    Completá el formulario y nos pondremos en contacto.
+                </p>
+
+                <!-- Formulario preparado para Formspree -->
+                <form
+                    action="https://formspree.io/f/meaeeobj"
+                    method="POST"
+                >
+
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Ingresá tu nombre"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Correo electrónico</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Ingresá tu correo electrónico"
+                            required
+                        >
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="6"
+                            placeholder="Escribí tu consulta..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="boton">
+                        Enviar mensaje
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="contenedor">
+
+            <h2>Camelot Comics Store</h2>
+
+            <p>
+                Tu lugar para volver a disfrutar los clásicos.
+            </p>
+
+            <p>
+                &copy; 2026 Camelot Comics Store - Todos los derechos reservados.
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+```
